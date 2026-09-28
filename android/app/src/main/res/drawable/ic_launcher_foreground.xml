@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Glow / Ring -->
+    <path
+        android:strokeColor="#3300F2FF"
+        android:strokeWidth="4"
+        android:fillColor="#00000000"
+        android:pathData="M54,20 A34,34 0 1,1 53.99,20 Z" />
+    
+    <!-- Neon Cyber Diamond / Ship Frame -->
+    <path
+        android:fillColor="#1500F2FF"
+        android:strokeColor="#00F2FF"
+        android:strokeWidth="3"
+        android:pathData="M54,26 L78,54 L54,82 L30,54 Z" />
+
+    <!-- Inner Core & Thruster in Neon Magenta -->
+    <path
+        android:fillColor="#FF00FF"
+        android:pathData="M54,40 L64,54 L54,68 L44,54 Z" />
+
+    <!-- Center Pulse Dot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,51 A3,3 0 1,1 53.99,51 Z" />
+
+    <!-- Trailing Wings / Thrusters -->
+    <path
+        android:strokeColor="#00F2FF"
+        android:strokeWidth="2.5"
+        android:pathData="M30,54 L22,66 M78,54 L86,66" />
+</vector>

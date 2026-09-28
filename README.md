@@ -1,85 +1,20 @@
-# Neon Runner
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-Neon Runner is a simple arcade game inspired by classic tap-to-fly games, but with a modern neon style.
+# Run and deploy your AI Studio app
 
-Control the bird, fly through the gaps, avoid the obstacles, and keep going for as long as you can. The longer you survive, the higher your score gets.
+This contains everything you need to run your app locally.
 
-## ✨ Features
+View your app in AI Studio: https://ai.studio/apps/fdacfb5a-6c48-4bc3-b229-620022a7e7f1
 
-* Smooth tap/click controls
-* Neon cyberpunk-style visuals
-* Endless gameplay
-* Score system
-* Increasing challenge
-* Simple and easy-to-learn gameplay
-* Lightweight and fast
-* Works offline
+## Run Locally
 
-## 🎮 How to Play
+**Prerequisites:**  Node.js
 
-* Tap, click, or use the assigned key to make the bird fly upward.
-* Avoid the obstacles.
-* Keep the bird in the air.
-* Try to beat your highest score.
 
-One mistake and the run is over.
-
-## 🚀 Goal
-
-Survive as long as possible and get the highest score you can.
-
-## 🛠️ Built With
-
-* HTML
-* CSS
-* JavaScript
-
-## 📱 Platform
-
-Designed to work smoothly on desktop and mobile devices.
-
-## 📦 Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/your-username/neon-runner.git
-```
-
-Open the project folder and launch the game.
-
-For a simple local setup, you can also open the main HTML file directly in your browser.
-
-## 📂 Project Structure
-
-```text
-neon-runner/
-├── index.html
-├── style.css
-├── script.js
-├── assets/
-└── README.md
-```
-
-## 🎯 Future Improvements
-
-Possible updates may include:
-
-* More obstacle types
-* New bird designs
-* Power-ups
-* High-score saving
-* More sound effects
-* Background music
-* Additional visual effects
-* More game modes
-
-## 📄 License
-
-This project is available under the MIT License.
-
-## 👤 Developer
-
-Made by **TechVixx**.
-
-Thanks for checking out Neon Runner! ⚡
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
